@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Using Div and span</title>
+        <script src="Score.js"></script>
+        <style>
+            *{font-family: cursive;}
+            body{
+                background: grey;
+            }
+            h1{
+                margin-top: 200px;
+            }
+            .pics{
+                display: flex;
+                margin-left: 430px;     
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+            <h1>Honey Bees collecting Honey</h1>
+            <div class="pics">
+                <div class="pic">
+                    <img src="The_Lone_Pollinator.jpg" style="height: 100px; width: 200px;" ><br><br>
+                     <button onclick="increase()" style="background-color: forestgreen; width: 130px; height: 40px; border-radius: 35px;">Increase</button>
+                </div>
+                
+                <div class="pic">
+            <img src="honey-comb-identifcation_1800x.jpg" style="height: 100px; width: 200px;"><br><br>
+          <button onclick="decrease()" style="background-color: red; width: 130px; height: 40px; border-radius: 35px;">Decrease</button>
+                </div>
+            </div>
+            
+                
+            <div>
+                <label>Score :</label>
+            </div>
+            <div>
+                <label id="total">0</label>
+            </div>
+        </center>
+    </body>
+</html>
