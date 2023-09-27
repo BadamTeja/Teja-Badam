@@ -1,0 +1,84 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: cursive;
+}
+body{
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(banner.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 580px;
+}
+.logo img{
+	width: 150px;
+	height: 200px;
+	margin-left: 5px;
+}
+.navbar{
+    width: 100%;
+    height: 180px;
+    padding: 20px;
+}
+.navbar .container{
+    margin-left: 20px;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    margin-right: 10px;
+}
+ nav ul li{
+    list-style: none;
+    padding:25px;
+}
+nav ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+}
+nav button{
+	outline: none;
+	background-color: orange;
+	width: 110px;
+	border: none;
+	border-radius: 50px;
+	padding: 4px;
+	margin-top: -5px;
+
+}
+.sec{
+	text-align: center;
+}
+.sec .sec-para1{
+	text-align: center;
+	padding-top: 30px;
+	font-size: 50px;
+	font-weight: 1000;
+}
+.table-1{
+	margin-left: 50px;
+	padding: 5px;
+	margin-top: 30px;
+
+}
+.table-1 tr td{
+	padding: 20px;
+	font-weight: 800;
+	font-size: 15px;
+}
+.table-2{
+	margin-top: 30px;
+	margin-left: 100px;
+}
+.table-2 tr td{
+	margin-top: 15px;
+	padding: 10px;
+}
+.table-2 h2{
+	font-size: 40px;
+}
